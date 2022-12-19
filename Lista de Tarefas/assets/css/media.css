@@ -1,0 +1,26 @@
+@media (max-width: 1118px) {
+    .taskBorder {
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .taskMenu, fieldset, .taskSpaceList {
+        width: auto;
+    }
+
+    .taskMenu {
+        border: none;
+        box-shadow: none;
+    }
+
+    .taskInput {
+        margin-bottom: 5px;
+    }
+
+    .taskSpaceList {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}

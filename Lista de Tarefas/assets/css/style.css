@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Josefin', sans-serif;
+}
+
+.taskBorder {
+    background-color: #fff;
+    width: 800px ;
+    height: auto;
+    padding: 0 0 40px 0;
+    margin: 50px auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.taskBorder h1 {
+    padding: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.taskMenu {
+    text-align: center;
+    padding: 30px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 2px 1px #000;
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.taskSpaceList {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    text-align: justify;
+    list-style: url('/assets/img/coffee.png');
+    list-style-position: inside;
+}
+
+.taskSpaceList li {
+    padding: 5px 3px 5px 5px;
+    margin-bottom: 10px;
+    border-bottom: 0.5px dotted rgb(135, 133, 133);
+    line-height: 10px;
+}
+
+.btnTask {
+    background-color: rgb(63, 7, 109);
+    color: #fff;
+    border-radius: 5px;
+    transition: ease-in .5s;
+}
+
+.btnTask:hover{
+    background-color: rgb(106, 76, 131);
+    transition: ease-in-out .5ss;
+    cursor: pointer;
+}
+
+.btnTask, .taskInput {
+    padding: 5.5px;
+}
+
+.fa-trash-can {
+    float: right;
+    cursor: pointer;
+}
+
+.fa-trash-can:hover {
+    color: #777777;
+    transition: ease-in .5s;
+}
+
+fieldset {
+    padding: 10px 10px 20px 10px;
+}
+
+legend {
+    margin-left: -86px;
+    background-color: #000;
+    color: #fff;
+    padding: 4px 10px;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+}
